@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/nature.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+input {
+    height: 60px;
+    border-radius: 10px;
+    width: 320px;
+    font-size: 30px;
+    padding-left: 8px;
+    margin-right: 8px;
+}
+button {
+    border-radius: 10px;
+    height: 60px;
+    font-size: 30px;
+    width: 250px;
+    transition: all .7s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 10px;
+}
