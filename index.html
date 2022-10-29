@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,34 @@
     <title>Get data from server</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <input type="text" placeholder="Введіть місто">
-        <button>Пошук погоди</button>
+        <section class="find">
+            <input type="text" placeholder="Введіть місто">
+            <button disabled>Пошук погоди</button>
+        </section>
+        <section class="weather">
+            <div class="weather_text_container">
+                <div>
+                    <span>Температура:</span>
+                    <span class="temp"></span>
+                    <span>градусів</span>
+                </div>
+                <div>
+                    <span>Вологість:</span>
+                    <span class="hum"></span>
+                    <span>%</span>
+                </div>
+                <div>
+                    <span>Швидкість вітру:</span>
+                    <span class="wind"></span>
+                    <span>м/с</span>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>

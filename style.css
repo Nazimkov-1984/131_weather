@@ -30,7 +30,7 @@ button:hover {
     cursor: pointer;
     background-color: aquamarine;
 }
-main {
+.find {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,35 @@ main {
     height: 100px;
     background-color: rgba(0, 0, 255, 0.3);
     border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    position: relative;
+    left: -100px;
+}
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0 ;
+    display: none;
+}
+.weather span {
+    text-align: left;
+}
+.weather_text_container{
+    display: flex;
+    flex-direction: column;
 }
